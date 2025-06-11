@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #629ec5);
+}
+
+.first {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+.mytdiv h1 {
+    margin-bottom: 20px;
+}
+
+.mycdiv {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mycdiv input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    width: 60%;
+}
+
+.mycdiv button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+
+.mycdiv button:hover {
+    background-color: #e0e0e0;
+}
+
+.mytempdiv {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.myinfodiv {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.myforecastdiv {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.forecast-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.forecast-list li {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.forecast-list img {
+    width: 40px;
+    height: 40px;
+}
